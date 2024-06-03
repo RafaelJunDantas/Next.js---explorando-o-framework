@@ -1,4 +1,4 @@
-import Footer from '../components/patterns/footer';
+import Footer from '../components/patterns/Footer'
 import Link from '../components/Link'
 import { theme } from '../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
@@ -322,7 +322,7 @@ export default function HomeScreen() {
           <SideImage />
         </Box>
       </Box>
-      <Footer />
+      <Footer/>
     </Box>
   )
 }

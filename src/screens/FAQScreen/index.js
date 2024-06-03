@@ -1,8 +1,8 @@
 // FAQScreen.js
-import Footer from '../../components/patterns/Footer';
-import Link from '../../components/Link';
-import { theme } from '../../theme/theme';
-import { Box, Text } from '../../theme/components';
+import Footer from '../components/patterns/Footer';
+import Link from '../components/Link';
+import { theme } from '../theme/theme';
+import { Box, Text } from '../theme/components';
 
 export default function FAQScreen({ faq }) {
   return (

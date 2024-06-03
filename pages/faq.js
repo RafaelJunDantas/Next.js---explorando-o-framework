@@ -1,5 +1,5 @@
 import Link from '../src/components/Link'
-import Title from '../src/components/theme/title'
+import Title from '../src/theme/title'
 
 export default function FAQPage() {
   return (

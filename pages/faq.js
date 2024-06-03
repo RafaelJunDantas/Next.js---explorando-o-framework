@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
-import Link from '../src/components/Link'
-import Title from '../src/theme/title'
+import { useEffect, useState } from 'react';
+import Link from '../src/components/Link';
+import Title from '../src/theme/title';
+import Head from 'next/head';
 
 // SSG - Static Site Generation
 // SSR - Server Side Rendering
@@ -45,6 +46,9 @@ export default function FAQPage({ faq }) {
 
   return (
     <div>
+      <Head>
+        <title>FAQ - Alura Cases</title>
+      </Head>
       <Title as="h1">Alura Cases - Página de FAQ</Title>
       <Link href="/">
         Ir para Home
